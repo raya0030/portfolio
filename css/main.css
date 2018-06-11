@@ -1,0 +1,192 @@
+/* ----------BASIC START---------- */
+
+html {
+    color: ;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Domine', serif;
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+    width: 400px;
+    padding: 40px;
+    margin: 50px;
+
+}
+
+
+image {
+    width: 100%;
+}
+
+iframe {
+    padding: 25px;
+}
+
+h1 {
+    font-family: 'Philosopher',
+    sans-serif;
+    padding: 10px;
+    color: darkslategrey;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    color: darkslategrey;
+    font-size: 1.7em;
+    margin-bottom: 1px;
+
+}
+
+p {
+    font-family: 'Domine', serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 15pxpx;
+    line-height: 1.6;
+    color: brown;
+}
+
+p2 {
+    font-family: 'Domine', serif;
+    margin: 15px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+p2 a:hover {
+    background-color: darkslategrey;
+    color: lightgoldenrodyellow;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+font-family: 'Domine',
+serif;
+/* p */
+
+font-family: 'Lobster',
+cursive;
+/* Titel */
+
+font-family: 'Philosopher',
+sans-serif;
+/* Titel */
+
+font-family: 'Gudea',
+sans-serif;
+/* EVT undertitler */
+
+font-family: 'Gudea',
+sans-serif,
+italic;
+/* For undertitler eller tekstboks */
+
+/* ----------BASIC SLUT---------- */
+
+/* -----------NAV START --------*/
+
+nav {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-size: 3em;
+    padding: 50px;
+    color: #666;
+    align-self: flex-end;
+    font-family: 'Lobster', cursive;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    background-color: lightgoldenrodyellow;
+    color: darkslategrey;
+    border-radius: 25px;
+}
+
+/*
+
+.box18 .content {
+    background-image: url(blue.jpeg);
+    background-size: cover;
+    text-align: center;
+
+}
+
+.box18 .content a {
+    color: white;
+    margin: 20px auto;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+}
+*/
+
+/* ----------NAV SLUT---------*/
+
+/*-----------DIV START--------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+
+}
+
+.column {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+
+}
+
+.column_index {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+
+}
+
+.column_portfolio {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 50px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+}
+
+
+
+
+/*-----------DIV SLUT--------------*/
